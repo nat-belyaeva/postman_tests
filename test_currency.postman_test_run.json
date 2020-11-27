@@ -1,0 +1,278 @@
+{
+	"id": "cf710e67-4d59-4587-8ef7-668ed6f3d6a0",
+	"name": "test_currency",
+	"timestamp": "2020-11-27T13:54:12.540Z",
+	"collection_id": "2ed0d0ea-0090-4520-b89d-c7db04a9d3d0",
+	"folder_id": 0,
+	"environment_id": "19613b86-1c53-4bde-b006-00e1e12c433e",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "729b83ff-d88d-470c-be20-3ce4e52a8a43",
+			"name": "login",
+			"url": "http://109.248.203.4:5003/login",
+			"time": 170,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				170
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "10046c3f-9fb6-4482-af5e-09319d7336d6",
+			"name": "user_info",
+			"url": "http://109.248.203.4:5003/user_info",
+			"time": 54,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is json": true,
+				"u_salary_1_5_year is 2000": true,
+				"start_qa_salary is less": true,
+				"qa_salary_after_12_months  is 1500": true,
+				"qa_salary_after_6_months  is 1000": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_salary_1_5_year is 2000": {
+					"pass": 1,
+					"fail": 0
+				},
+				"start_qa_salary is less": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_12_months  is 1500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"qa_salary_after_6_months  is 1000": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is json": true,
+					"u_salary_1_5_year is 2000": true,
+					"start_qa_salary is less": true,
+					"qa_salary_after_12_months  is 1500": true,
+					"qa_salary_after_6_months  is 1000": true
+				}
+			]
+		},
+		{
+			"id": "9117b7b0-c00d-4297-a7ce-50a91edcd88a",
+			"name": "new_data",
+			"url": "http://109.248.203.4:5003/new_data",
+			"time": 79,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				79
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is json": true
+				}
+			]
+		},
+		{
+			"id": "820a8d99-373d-4d11-8598-7ef872fecbd2",
+			"name": "first",
+			"url": "http://109.248.203.4:5003/?age=32&name=Nat",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				57
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ac43762e-5d19-4f08-80a7-abf6ca15bb26",
+			"name": "get_test_user",
+			"url": "http://109.248.203.4:5003/get_test_user",
+			"time": 418,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				418
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "02a65eeb-52a2-4624-83ab-3fc85adeff7e",
+			"name": "test_pet_info",
+			"url": "http://109.248.203.4:5003/test_pet_info",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is json": true
+				}
+			]
+		},
+		{
+			"id": "736c773f-62a8-476e-9738-190111fda23b",
+			"name": "currency",
+			"url": "http://109.248.203.4:5003/currency",
+			"time": 475,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				475
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is json": true
+				}
+			]
+		},
+		{
+			"id": "b7136d4a-7b61-4b9e-a7a6-5047a8a3681d",
+			"name": "curr_byn",
+			"url": "http://109.248.203.4:5003/curr_byn",
+			"time": 466,
+			"responseCode": {
+				"code": 500,
+				"name": "INTERNAL SERVER ERROR"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				466
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1801,
+	"collection": {
+		"requests": [
+			{
+				"id": "729b83ff-d88d-470c-be20-3ce4e52a8a43",
+				"method": "POST"
+			},
+			{
+				"id": "10046c3f-9fb6-4482-af5e-09319d7336d6",
+				"method": "POST"
+			},
+			{
+				"id": "9117b7b0-c00d-4297-a7ce-50a91edcd88a",
+				"method": "POST"
+			},
+			{
+				"id": "820a8d99-373d-4d11-8598-7ef872fecbd2",
+				"method": "GET"
+			},
+			{
+				"id": "ac43762e-5d19-4f08-80a7-abf6ca15bb26",
+				"method": "POST"
+			},
+			{
+				"id": "02a65eeb-52a2-4624-83ab-3fc85adeff7e",
+				"method": "POST"
+			},
+			{
+				"id": "736c773f-62a8-476e-9738-190111fda23b",
+				"method": "POST"
+			},
+			{
+				"id": "b7136d4a-7b61-4b9e-a7a6-5047a8a3681d",
+				"method": "POST"
+			}
+		]
+	}
+}
